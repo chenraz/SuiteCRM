@@ -1,0 +1,332 @@
+<!--
+/**
+ *
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ *
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * reasonably feasible for technical reasons, the Appropriate Legal Notices must
+ * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ */
+-->
+<!-- BEGIN: Quote_Subject -->
+<p>SuiteCRM הצעת מחיר - {QUOTE_SUBJECT}</p>
+<!-- END: Quote_Subject -->
+<!-- BEGIN: Quote -->
+<p>{ASSIGNER} שייך הצעת מחיר ל-{ASSIGNED_USER}.</p>
+<p>
+נושא: {QUOTE_SUBJECT}<br />
+מצב: {QUOTE_STATUS}<br />
+תאריך סגירה צפוי: {QUOTE_CLOSEDATE}<br /> 
+תיאור: {QUOTE_DESCRIPTION}
+</p>
+<p>אתה יכול <a href={URL}>לבקר הצעת מחיר זו</a>.</p>
+<!-- END: Quote -->
+
+<!-- BEGIN: Account_Subject -->
+<p>חשבון - {ACCOUNT_NAME}</p>
+<!-- END: Account_Subject -->
+<!-- BEGIN: Account -->
+<p><b>{ASSIGNER}</b> הקצה חשבון לקוח ל-<b>{ASSIGNED_USER}</b>.</p>
+<p>
+שם: {ACCOUNT_NAME}<br />
+סוג: {ACCOUNT_TYPE}<br />
+תיאור: {ACCOUNT_DESCRIPTION}
+</p>
+<p>אתה יכול <a href={URL}>לסקור את החשבון הזה</a>.</p>
+<!-- END: Account -->
+
+<!-- BEGIN: Case_Subject -->
+<p>פניה - {CASE_SUBJECT}</p>
+<!-- END: Case_Subject -->
+<!-- BEGIN: Case -->
+<p><b>{ASSIGNER}</b> הקצה פנייה ל- <b>{ASSIGNED_USER}</b>.</p>
+<p>
+נושא: {CASE_SUBJECT}<br />
+עדיפות: {CASE_PRIORITY}<br />
+מצב: {CASE_STATUS}<br />
+תיאור: {CASE_DESCRIPTION}
+</p>
+<p>אתה יכול <a href={URL}>לסקור פניה זו</a>.</p>
+<!-- END: Case -->
+
+<!-- BEGIN: Task_Subject -->
+<p>SuiteCRM פעילות - {TASK_SUBJECT}</p>
+<!-- END: Task_Subject -->
+<!-- BEGIN: Task -->
+<p><b>{ASSIGNER}</b> הקצה משימה ל- <b>{ASSIGNED_USER}</b>.</p>
+<p>
+נושא: {TASK_SUBJECT}<br />
+עדיפות: {TASK_PRIORITY}<br />
+תאריך יעד: {TASK_DUEDATE}<br />
+מצב: {TASK_STATUS}<br />
+תיאור: {TASK_DESCRIPTION}
+</p>
+<p>אתה יכול <a href={URL}>לסקור משימה זו</a>.</p>
+<!-- END: Task -->
+
+<!-- BEGIN: Meeting_Subject -->
+<p>SuiteCRM פגישה - {MEETING_SUBJECT}</p>
+<!-- END: Meeting_Subject -->
+<!-- BEGIN: Meeting -->
+<p>אל: {MEETING_TO}</p>
+<p><b>{ASSIGNER}</b> הזמינ/ה אותך לפגישה</p>
+<p>
+נושא: {MEETING_SUBJECT}<br />
+מיקום: {MEETING_LOCATION}<br />
+תאריך התחלה: {MEETING_STARTDATE}<br />
+תאריך סיום: {MEETING_ENDDATE}
+</p>
+<p>
+<!-- BEGIN: Meeting_External_API -->
+כתובת URL לפגישה:{MEETING_URL}
+</p>
+<!-- END: Meeting_External_API -->
+<p>תיאור/הוראות: {MEETING_DESCRIPTION}<br />
+</p>
+<p>---</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>אישור פגישה הזאת</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>אישור טנטטיבי של הפגישה </a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>דחה פגישה זאת</a>.</p>
+<!-- END: Meeting -->
+
+<!-- BEGIN: MeetingSpecial_Subject -->
+<p>CRM פגישה - {MEETING_SUBJECT}</p>
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingSpecial -->
+<p><b>{ASSIGNER}</b> הקצה פגישה ל- <b>{ASSIGNED_USER}</b>.</p>
+<p>
+נושא: {MEETING_SUBJECT}<br />
+מיקום: {MEETING_LOCATION}<br />
+סטטוס: {MEETING_STATUS}<br />
+תאריך התחלה: {MEETING_STARTDATE}<br />
+תאריך סיום: {MEETING_ENDDATE}<br />
+תיאור: {MEETING_DESCRIPTION}
+</p>
+<p>אתה יכול <a href={URL}>לסקור פגישה זו</a>.</p>
+<!-- END: MeetingSpecial -->
+
+<!-- BEGIN: MeetingReminder_Subject -->
+<p>תזכורת פגישה - {MEETING_SUBJECT}</p>
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingReminder -->
+<p>
+    כותרת: {MEETING_SUBJECT}<br />
+ מתי: {MEETING_STARTDATE}<br />
+ מיקום: {MEETING_LOCATION}<br />
+ נוצר על ידי: {MEETING_CREATED_BY}
+</p>
+<!-- END: MeetingReminder -->
+
+<!-- BEGIN: Email_Subject -->
+<p>SuiteCRM דוא"ל - {EMAIL_SUBJECT}</p>
+<!-- END: Email_Subject -->
+<!-- BEGIN: Email -->
+<p><b>{ASSIGNER}</b> הקצה דוא"ל ל- <b>{ASSIGNED_USER}</b>.</p>
+<p>
+נושא: {EMAIL_SUBJECT}<br /> 
+תאריך שליחה: {EMAIL_DATESENT}
+</p>
+<p>אתה יכול <a href={URL}>לסקור את האימייל הזה</a>.</p>
+<!-- END: Email -->
+
+<!-- BEGIN: Contact_Subject -->
+<p>SuiteCRM איש קשר - {CONTACT_NAME}</p>
+<!-- END: Contact_Subject -->
+<!-- BEGIN: Contact -->
+<p><b>{ASSIGNER}</b> הקצה איש קשר ל- <b>{ASSIGNED_USER}</b>.</p>
+<p>
+שם: {CONTACT_NAME}<br />
+תיאור: {CONTACT_DESCRIPTION}
+</p>
+<p>אתה יכול <a href={URL}>לסקור איש קשר זה</a>.</p>
+<!-- END: Contact -->
+
+<!-- BEGIN: Lead_Subject -->
+<p>SuiteCRM ליד - {LEAD_NAME}</p>
+<!-- END: Lead_Subject -->
+<!-- BEGIN: Lead -->
+<p><b>{ASSIGNER}</b> הקצה ליד ל- <b>{ASSIGNED_USER}</b>.</p>
+<p>
+שם: {LEAD_NAME}<br />
+מקור ליד: {LEAD_SOURCE}<br />
+מצב: {LEAD_STATUS}<br />
+תיאור: {LEAD_DESCRIPTION}
+</p>
+<p>אתה יכול <a href={URL}>לסקור ליד זה</a>.</p>
+<!-- END: Lead -->
+
+<!-- BEGIN: Opportunity_Subject -->
+<p>SuiteCRM הזדמנות - {OPPORTUNITY_NAME}</p>
+<!-- END: Opportunity_Subject -->
+<!-- BEGIN: Opportunity -->
+<p><b>{ASSIGNER}</b> הקצה הזדמנות ל- <b>{ASSIGNED_USER}</b>.</p>
+<p>
+שם: {OPPORTUNITY_NAME}<br />
+כמות: {OPPORTUNITY_AMOUNT}<br />
+תאריך סגירה צפוי: {OPPORTUNITY_CLOSEDATE}<br />
+מצב מכירה: {OPPORTUNITY_STAGE}<br />
+תיאור: {OPPORTUNITY_DESCRIPTION}
+</p>
+<p>אתה יכול <a href={URL}>לסקור הזדמנות זו</a>.</p>
+<!-- END: Opportunity -->
+
+<!-- BEGIN: Bug_Subject -->
+<p>SuiteCRM באג - {BUG_SUBJECT}</p>
+<!-- END: Bug_Subject -->
+<!-- BEGIN: Bug -->
+<p><b>{ASSIGNER}</b> הקצה באג ל <b>{ASSIGNED_USER}</b>.</p>
+<p>
+מס באג: {BUG_BUG_NUMBER}<br />
+נושא: {BUG_SUBJECT}<br />
+סוג: {BUG_TYPE}<br />
+עדיפות: {BUG_PRIORITY}<br />
+סטטוס: {BUG_STATUS}<br />
+פתרון הבעיה: {BUG_RESOLUTION}<br />
+תאריך הוצאה: {BUG_RELEASE}<br />
+תאור: {BUG_DESCRIPTION}<br />
+יומן עבודה: {BUG_WORK_LOG}
+</p>
+<p>אתה יכול <a href={URL}>לסקור את הבאג הזה</a>.</p>
+<!-- END: Bug -->
+
+<!-- BEGIN: Default_Subject -->
+<p>SuiteCRM - שהוקצה {OBJECT}</p>
+<!-- END: Default_Subject -->
+<!-- BEGIN: Default -->
+<p><b>{ASSIGNER}</b> הקצה (n) {OBJECT} ל <b>{ASSIGNED_USER}</b>.</p>
+<p>אתה יכול <a href={URL}>לסקור את זה {OBJECT}</a>.</p>
+<!-- END: Default -->
+
+<!-- BEGIN: Call_Subject -->
+<p>SuiteCRM שיחה של - {CALL_SUBJECT}</p>
+<!-- END: Call_Subject -->
+<!-- BEGIN: Call -->
+<p>אל: {CALL_TO}</p>
+<p><b>{ASSIGNER}</b> הזמין אותך לשיחה</p>
+<p>
+נושא: {CALL_SUBJECT}<br />
+סטטוס: {CALL_STATUS}<br />
+תאריך התחלה: {CALL_STARTDATE}<br />
+משך: {CALL_HOURS}h, {CALL_MINUTES}m<br />
+תיאור: {CALL_DESCRIPTION}<br />
+</p>
+<p>---</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>קבל את השיחה הזאת</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>קבל תשובה זו באופן זמני - טנטטיבי</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>דחה שיחת טלפון זאת</a>.</p>
+<!-- END: Call -->
+
+<!-- BEGIN: CallSpecial_Subject -->
+<p>SuiteCRM שיחה של - {CALL_SUBJECT}</p>
+<!-- END: CallSpecial_Subject -->
+<!-- BEGIN: CallSpecial -->
+<p><b>{ASSIGNER}</b> הקצתה שיחה ל- <b>{ASSIGNED_USER}</b>.</p>
+<p>
+נושא: {CALL_SUBJECT}<br />
+סטטוס: {CALL_STATUS}<br />
+תאריך התחלה: {CALL_STARTDATE}<br />
+משך: {CALL_HOURS}h, {CALL_MINUTES}m<br />
+תיאור: {CALL_DESCRIPTION}
+</p>
+<p>באפשרותך <a href={URL}>לסקור את השיחה הזו</a>.</p>
+<!-- END: CallSpecial -->
+
+<!-- BEGIN: CallReminder_Subject -->
+<p>תזכורת שיחה - {CALL_SUBJECT}</p>
+<!-- END: CallReminder_Subject -->
+<!-- BEGIN: CallReminder -->
+<p>
+    כותרת: {CALL_SUBJECT}<br />
+    מתי: {CALL_STARTDATE}<br />
+    נוצר על ידי: {CALL_CREATED_BY}
+</p>
+<!-- END: CallReminder -->
+
+<!-- BEGIN: Campaign_Subject -->
+<p>SuiteCRM קמפיין - {CAMPAIGN_NAME}</p>
+<!-- END: Campaign_Subject -->
+<!-- BEGIN: Campaign -->
+<p><b>{ASSIGNER}</b> הקצתה מסע פרסום ל <b>{ASSIGNED_USER}</b>.</p>
+<p>
+נושא: {CAMPAIGN_NAME}<br />
+סכום: {CAMPAIGN_AMOUNT}<br />
+תאריך סיום: {CAMPAIGN_CLOSEDATE}<br />
+סטטוס: {CAMPAIGN_STATUS}<br />
+תאור: {CAMPAIGN_DESCRIPTION}
+</p>
+<p>תוכל <a href={URL}>לסקור את הקמפיין הזה</a>.</p>
+<!-- END: Campaign -->
+
+<!-- BEGIN: Quota_Subject -->
+<p>SuiteCRM מכסות - המכסה שלך עבור {QUOTA_TIMEPERIOD}</p>
+<!-- END: Quota_Subject -->
+<!-- BEGIN: Quota -->
+<p><b>{ASSIGNER}</b> הקצה מכסה ל <b>{ASSIGNED_USER}</b>.</p>
+<p>
+סכום: {QUOTA_AMOUNT}<br />
+תקופת זמן: {QUOTA_TIMEPERIOD}
+</p>
+<p>תוכל <a href={QUOTA_URL}>לסקור את הקצאת מכסה זו</a>.</p>
+<!-- END: Quota -->
+
+<!-- BEGIN: KBDocument_Subject -->
+<p>SuiteCRM מסמך- {KBDOCUMENT_NAME}</p>
+<!-- END: KBDocument_Subject -->
+<!-- BEGIN: KBDocument -->
+{NOTIFICATION_MESSAGE}
+
+<p>
+שם: {KBDOCUMENT_NAME}<br />
+תאריך יצירה: {KBDOCUMENT_DATE_CREATED}<br />
+נוצר על ידי: {KBDOCUMENT_CREATED_BY}<br />
+סטטוס: {KBDOCUMENT_STATUS}<br />
+תאור: {KBDOCUMENT_DESCRIPTION}
+</p>
+<p>תוכל <a href={URL}>לסקור מסמך זה</a>.</p>
+<!-- END: KBDocument -->
+
+<!-- BEGIN: Contract_Subject -->
+<p>SuiteCRM חוזה - {CONTRACT_NAME}</p>
+<!-- END: Contract_Subject -->
+<!-- BEGIN: Contract-->
+<p><b>{ASSIGNER}</b> הקצה חוזה זה ל <b>{ASSIGNED_USER}</b>.</p>
+<p>תוכל <a href={URL}>לסקור חוזה זה</a>.</p>
+<!-- END:Contract-->
+
+<!-- BEGIN: ContractSpecial_Subject -->
+<p>SuiteCRM חוזה - {CONTRACT_NAME}</p>
+<!-- END: ContractSpecial_Subject -->
+<!-- BEGIN: ContractSpecial -->
+<p>חוזה: {CONTRACT_NAME} עומד לפוג בתאריך {CONTRACT_END_DATE}.</p>
+<p>תוכל <a href={URL}>לסקור חוזה זה</a>.</p>
+<!-- END:ContractSpecial-->
