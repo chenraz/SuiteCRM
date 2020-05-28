@@ -21,6 +21,7 @@ install/status.json
 /config_override.php
 /config_si.php
 tests/config.test.php
+Api/Core/Config/ApiConfig.php
 # Connector configuration should also be ignored.
 custom/modules/Connectors/connectors/sources/ext/*/*/config.php
 # Logs files can safely be ignored.
