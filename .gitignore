@@ -6,7 +6,12 @@ cache/*
 upload/*
 !upload/index.html
 # Ignore some files and directories from the custom directory.
-custom/
+custom/*
+!custom/themes
+!custom/Extension/
+custom/Extension/*
+!custom/Extension/application
+
 custom/history/*
 custom/blowfish/*
 custom/modulebuilder/*
@@ -103,8 +108,9 @@ tests/_output/*
 BrowserStackLocal
 browserstack.err
 cache/
-custom/**/
+#custom/**/
 .sass-cache/
+
 
 # Ignore testing environment
 build/tmp/
@@ -125,3 +131,5 @@ codeception.yml
 .env
 .env.test
 .env.dev
+
+!custom/*he_IL*
