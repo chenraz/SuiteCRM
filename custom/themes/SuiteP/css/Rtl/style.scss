@@ -1,17 +1,18 @@
 // Core variables and mixins
 @import "color-palette";
-@import "variables";
+@import "variables";   
 @import "icons";
 @import "../bootstrap/mixins";
+@import "rtl";      
 
 // Reset and dependencies
-@import "../bootstrap/normalize";
-@import "../bootstrap/print";
-@import "../bootstrap/glyphicons";
+@import "../bootstrap/normalize";           
+@import "../bootstrap/print"; 
+@import "../bootstrap/glyphicons";    
 
 // Core CSS
-@import "../bootstrap/scaffolding";
-@import "../bootstrap/type";
+@import "../bootstrap/scaffolding";           
+@import "../bootstrap/type";  
 @import "../bootstrap/code";
 @import "../bootstrap/grid";
 @import "../bootstrap/tables";
