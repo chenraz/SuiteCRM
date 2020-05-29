@@ -8918,8 +8918,8 @@ a:hover {
   background-position: 0 8px;
   background-repeat: no-repeat;
   background-size: 32px;
-  margin-left: 12px;
-  float: left;
+  margin-right: 12px;
+  float: right;
   width: 40px;
   /* effects link text position */
   height: 48px;
@@ -13615,12 +13615,12 @@ textarea {
 }
 
 select[size] {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left #FFFFFF;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat #FFFFFF;
   background-color: #FFFFFF;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   overflow-y: hidden;
   color: #817C8D;
-  padding: 0 52px 0 5px;
+  padding: 0 5px 0 52px;
   border-color: #c4e3f5;
   border-style: solid;
   border-radius: 4px;
@@ -13635,11 +13635,11 @@ select[size] {
 }
 
 select.form-control {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left #FFFFFF;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat #FFFFFF;
   background-color: #FFFFFF;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   color: #817C8D;
-  padding: 0 52px 0 5px;
+  padding: 0 5px 0 52px;
   border-color: #c4e3f5;
   border-style: solid;
   border-radius: 4px;
@@ -13655,11 +13655,11 @@ select.form-control {
 }
 
 select {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left #FFFFFF;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat #FFFFFF;
   background-color: #FFFFFF;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   color: #817C8D;
-  padding: 0 52px 0 5px;
+  padding: 0 5px 0 52px;
   border-color: #c4e3f5;
   border-style: solid;
   border-radius: 4px;
@@ -13706,9 +13706,9 @@ option:checked {
 }
 
 .saved_search_select {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left #FFFFFF;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat #FFFFFF;
   background-color: #FFFFFF;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   padding: 16px 55px 16px 5px;
   border-color: #c4e3f5;
   border-style: solid;
@@ -13726,11 +13726,11 @@ select[multiple] {
 }
 
 select.ui-widget-content {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left #FFFFFF;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat #FFFFFF;
   background-color: #FFFFFF;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   color: #817C8D;
-  padding: 0 52px 0 5px;
+  padding: 0 5px 0 52px;
   border-color: #c4e3f5;
   border-style: solid;
   border-radius: 4px;
@@ -19369,7 +19369,7 @@ table.view {
   font-weight: 700;
   color: #817C8D;
   padding: 0;
-  text-align: left;
+  text-align: right;
   vertical-align: baseline;
   white-space: pre-wrap;
 }
@@ -19560,9 +19560,9 @@ option[selected] {
 }
 
 .edit tr td[scope=row] {
-  padding: 0 10px 0 0;
+  padding: 0 10px;
   line-height: 40px;
-  text-align: left;
+  text-align: right;
   height: 40px;
   vertical-align: top;
 }
@@ -20080,7 +20080,7 @@ input.sqsEnabled {
 }
 
 .contentBox {
-  padding: 0 10px 0 0;
+  padding: 0 10px;
   margin: 10px 0 10px 0;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
@@ -27516,11 +27516,11 @@ th.yui-dt-sortable .yui-dt-label {
 }
 
 th.yui-dt-asc .yui-dt-liner {
-  background: url("../../../../index.php?entryPoint=getImage&imageName=arrow_up.gif") no-repeat left;
+  background: url("../../../../index.php?entryPoint=getImage&imageName=arrow_up.gif") no-repeat right;
 }
 
 th.yui-dt-desc .yui-dt-liner {
-  background: url("../../../../index.php?entryPoint=getImage&imageName=arrow_down.gif") no-repeat left;
+  background: url("../../../../index.php?entryPoint=getImage&imageName=arrow_down.gif") no-repeat right;
 }
 
 tbody .yui-dt-editable {

@@ -1419,12 +1419,12 @@ textarea {
 }
 
 select[size] {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left $input-select-option;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat  $input-select-option;
   background-color: $input-select-option;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   overflow-y: hidden;
   color: $main-font-color;
-  padding: 0 52px 0 5px;
+  padding: 0 5px 0 52px;
   border-color: $input-select-bg;
   border-style: solid;
   border-radius: $border-radius-base;
@@ -1439,11 +1439,11 @@ select[size] {
 }
 
 select.form-control {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left $input-select-option;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat  $input-select-option;
   background-color: $input-select-option;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   color: $main-font-color;
-  padding: 0 52px 0 5px;
+  padding: 0 5px 0 52px;
   border-color: $input-select-bg;
   border-style: solid;
   border-radius: $border-radius-base;
@@ -1459,11 +1459,11 @@ select.form-control {
 }
 
 select {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left $input-select-option;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat  $input-select-option;
   background-color: $input-select-option;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   color: $main-font-color;
-  padding: 0 52px 0 5px;
+  padding: 0 5px 0 52px;
   border-color: $input-select-bg;
   border-style: solid;
   border-radius: $border-radius-base;
@@ -1511,9 +1511,9 @@ option:checked {
 }
 
 .saved_search_select {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left $input-select-option;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat  $input-select-option;
   background-color: $input-select-option;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   padding: 16px 55px 16px 5px;
   border-color: $input-select-bg;
   border-style: solid;
@@ -1531,11 +1531,11 @@ select[multiple] {
 }
 
 select.ui-widget-content {
-  background: url("../../../../../themes/SuiteP/images/forms/select.ico") no-repeat left $input-select-option;
+  background: url("../../../../../custom/themes/SuiteP/images/forms/select.ico") no-repeat  $input-select-option;
   background-color: $input-select-option;
-  background-size: 52px 52px;
+  background-size: 36px 52px;
   color: $main-font-color;
-  padding: 0 52px 0 5px;
+  padding: 0 5px 0 52px;
   border-color: $input-select-bg;
   border-style: solid;
   border-radius: $border-radius-base;

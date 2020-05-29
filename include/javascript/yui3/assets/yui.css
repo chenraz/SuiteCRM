@@ -209,7 +209,7 @@ p.loggerButton {text-align:center;}
  color:#000033;}
  
 /*ed eliot's server-side delicious badge css*/ 
-#delicious-badge .bookmark { background: url(http://images.del.icio.us/static/img/delicious.small.gif) no-repeat left center; padding-left: 15px; font-weight: bold; }
+#delicious-badge .bookmark { background: url(http://images.del.icio.us/static/img/delicious.small.gif) no-repeat right center; padding-left: 15px; font-weight: bold; }
 #delicious-badge p, #delicious-badge div {text-align: center; margin:0;}
 #delicious-badge a { color: #00f; text-decoration: none; }
 #delicious-badge div { background: #eee; }

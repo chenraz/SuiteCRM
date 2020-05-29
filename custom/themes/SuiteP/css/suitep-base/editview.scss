@@ -571,7 +571,7 @@ table.view {
   font-weight: 700;
   color: $main-font-color;
   padding: 0;
-  text-align: left;
+  text-align: right;
   vertical-align: baseline;
   white-space: pre-wrap;
 }
@@ -762,9 +762,9 @@ option[selected] {
 }
 
 .edit tr td[scope=row] {
-  padding: 0 10px 0 0;
+  padding: 0 10px;
   line-height: 40px;
-  text-align: left;
+  text-align: right;
   height: 40px;
   vertical-align: top;
 }
@@ -1284,7 +1284,7 @@ input.sqsEnabled {
 }
 
 .contentBox {
-  padding: 0 10px 0 0;
+  padding: 0 10px;
   margin: 10px 0 10px 0;
   border-top: 1px solid $panel-default-border;
   border-bottom: 1px solid $panel-default-border;
