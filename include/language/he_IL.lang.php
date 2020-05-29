@@ -3688,7 +3688,7 @@ $app_list_strings['aow_condition_type_list']['Multi'] = 'אחד';
 
 
 $app_list_strings['moduleList']['SurveyResponses'] = 'Survey Responses';
-$app_list_strings['moduleList']['Surveys'] = 'Surveys';
+$app_list_strings['moduleList']['סקרים'] = 'סקרים';
 $app_list_strings['moduleList']['SurveyQuestionResponses'] = 'Survey Question Responses';
 $app_list_strings['moduleList']['SurveyQuestions'] = 'Survey Questions';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Survey Question Options';

@@ -327,7 +327,7 @@ $mod_strings = array(
     'LBL_HOME_EDIT_DROPDOWNS' => 'רשימת עורכים',
 
 //STUDIO2
-    'LBL_MODULEBUILDER' => 'Module Builder',
+    'LBL_MODULEBUILDER' => 'בונה המודלים',
     'LBL_STUDIO' => 'Test',
     'LBL_DROPDOWNEDITOR' => 'רשימת עורכים',
     'LBL_DEVELOPER_TOOLS' => 'סטודיו',
